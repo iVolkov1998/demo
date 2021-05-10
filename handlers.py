@@ -76,3 +76,13 @@ async def echo(message:Message):
       await message.answer(f"[{tmp}] - {task}")
       tmp += 1
       reqv = 4
+
+    else:
+     await message.answer("Нет задача на эту дату")
+     reqv = 0
+   elif reqv == 4
+        try:
+            int(message.text)
+        except ValueError:
+          await message.answer("Не верный формат команды")
+          if len (todo[ uDate ]) <= int(message.text):
